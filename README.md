@@ -9,7 +9,7 @@ This project aims to develop a deep learning-based pest classification model usi
 Pest infestations are a major threat to global crop productivity, particularly in regions with limited access to timely agricultural assistance. Manual identification of pests is labor-intensive, error-prone, and often infeasible in field conditions.
 
 This project seeks to:
-- Build an **accurate and lightweight computer-vision model** for **pest classification** from images.
+- Build an **accurate computer-vision model** for **pest classification** from images.
 - Leverage the **IP102 dataset**, which contains **75,000+ images across 100+ pest species**.
 - Build a **user-facing application** to accept pest images, identify the pest, and suggest **treatment or prevention strategies**.
 
@@ -24,11 +24,6 @@ This project seeks to:
   - *Insect-Foundation: A Foundation Model and Large-scale 1M Dataset for Visual Insects* (CVPR 2024)
   - *IP102: A Large‑Scale Benchmark Dataset for Insect Pest Recognition* (CVPR 2019)
 - Finalized use of the **IP102 dataset** as our benchmark.
-- Submitted project proposal covering:
-  - Problem scope
-  - Dataset
-  - Planned methods
-  - Goal of a deployable system
 
 📈 **Progress toward goal**: ~20% completed  
 📌 Strong foundation for design, dataset prep, and roadmap planning
@@ -41,8 +36,6 @@ This project seeks to:
 - Download and preprocess IP102 dataset
 - Implement baseline CNN/ResNet classifier
 - Evaluate baseline and identify improvement opportunities
+- Evaluate existing models 
 
----
-
-## 📁 Repository Structure (To Be Developed)
 

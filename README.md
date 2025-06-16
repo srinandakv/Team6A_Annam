@@ -30,12 +30,22 @@ This project seeks to:
 
 ---
 
-## 🔧 Planned Next Steps (Week 2)
+## 🗓️ Week 2 Progress (June 9 – June 15)
 
-- Setup project structure and environment (Python, PyTorch/TensorFlow)
-- Download and preprocess IP102 dataset
-- Implement baseline CNN/ResNet classifier
-- Evaluate baseline and identify improvement opportunities
-- Evaluate existing models 
+### ✅ Milestone: Developed & Evaluated Baseline Models
+
+- Implemented two **baseline classification models** using PyTorch:
+  - **ResNet-50** (pretrained on ImageNet)
+  - **InceptionResNetV2** (pretrained on ImageNet)
+- Trained ResNet-50 on the **IP102 dataset** with 102 pest classes.
+- Set up:
+  - Training/validation/test split using `ImageFolder`
+  - Data augmentation and normalization
+  - Model training loop with checkpointing, learning rate scheduler
+  - Top-1 and Top-5 accuracy evaluation
+  - Detailed classification report and confusion matrix
+- **ResNet-50 Results:**
+  - 📌 **Top-1 Accuracy**: 58%
+  - 📈 **Top-5 Accuracy**: 81%
 
 

@@ -37,9 +37,7 @@ This project seeks to:
 - Implemented two **baseline classification models** using PyTorch:
   - **ResNet-50** (pretrained on ImageNet)
   - **InceptionResNetV2** (pretrained on ImageNet)
-- Trained ResNet-50 on the **IP102 dataset** with 102 pest classes.
 - Set up:
-  - Training/validation/test split using `ImageFolder`
   - Data augmentation and normalization
   - Model training loop with checkpointing, learning rate scheduler
   - Top-1 and Top-5 accuracy evaluation
